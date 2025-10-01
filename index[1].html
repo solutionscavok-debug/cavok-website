@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CAVOK Solutions | Contract Aviation Services</title>
+    <meta name="description" content="Amphibious and floatplane contract pilots. PIC and SIC support for amphibious, float, piston, and turbine aircraft." />
+    <link rel="icon" href="images/logo.png">
+    <!-- Tailwind for styling (page still renders fine without it) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Global scroll offset so section titles aren't hidden behind the sticky header -->
+    <style>
+      html { scroll-padding-top: 80px; } /* adjust to your header height */
+    </style>
+
+    <!-- Your global tweaks -->
+<style>
+  body { 
+    margin: 0; 
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; 
+  }
+  .container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+  img { max-width: 100%; height: auto; }
+  html { scroll-padding-top: 80px; }
+</style>
+
+  <body>
+<header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b border-slate-200">
+  <div class="container px-4 py-3 md:py-4 flex items-center justify-between">
+    
+    <!-- Left side nav -->
+    <nav class="hidden md:flex items-center gap-7 text-sm md:text-[15px] font-medium">
+      <a href="#services" class="hover:text-sky-700">Services</a>
+      <a href="#experience" class="hover:text-sky-700">Experience</a>
+      <a href="#safety" class="hover:text-sky-700">Safety</a>
+      <a href="#aircraft" class="hover:text-sky-700">A/C Type</a>
+      <a href="#about" class="hover:text-sky-700">About</a>
+      <a href="#contact" class="hover:text-sky-700">Contact</a>
+    </nav>
+
+    <!-- Right side CTA -->
+    <a href="#contact" 
+       class="ml-auto inline-block bg-sky-600 text-white px-4 py-2 rounded-lg shadow hover:bg-sky-700 transition">
+      Get a Quote
+    </a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="relative">
+  <div class="container mx-auto px-4 pt-4 md:pt-6 pb-10 md:pb-14">
+    
+    <!-- Big centered logo -->
+    <div class="text-center mb-8">
+      <img
+        src="images/logo-wide.png"
+        alt="CAVOK Solutions"
+        class="h-28 sm:h-32 md:h-40 lg:h-44 w-auto mx-auto"
+      />
+    </div>
+
+    <!-- Two-column layout -->
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      
+      <!-- Left: Headline + Text + Bullets + CTA -->
+      <div>
+        <h1 class="leading-tight tracking-tight">
+          <span class="block text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900">
+            Amphibious,
+          </span>
+          <span class="block text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900">
+            Float &
+          </span>
+          <span class="block text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900">
+            Wheeled
+          </span>
+          <span class="block text-4xl sm:text-5xl md:text-6xl font-extrabold text-sky-600">
+            Contract Pilots
+          </span>
+        </h1>
+
+        <p class="mt-5 text-base sm:text-lg text-slate-600 max-w-xl">
+          Professional PIC and SIC support for amphibious, float, piston, and turbine aircraft.
+          Flexible, safety-first crews for ferry, charter, positioning, relief, training, and private operations.
+        </p>
+
+<!-- Bullet Points (hanging dots, clean wraps) -->
+<div class="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-500">
+  <div class="relative pl-4 leading-snug before:content-[''] before:absolute before:left-0 before:top-2 before:h-2 before:w-2 before:rounded-full before:bg-yellow-400">
+    Decades of experience
+  </div>
+  <div class="relative pl-4 leading-snug before:content-[''] before:absolute before:left-0 before:top-2 before:h-2 before:w-2 before:rounded-full before:bg-yellow-400">
+    Safety-first mindset
+  </div>
+  <div class="relative pl-4 leading-snug before:content-[''] before:absolute before:left-0 before:top-2 before:h-2 before:w-2 before:rounded-full before:bg-yellow-400">
+    Client-focused service
+  </div>
+</div>
+
+        <!-- CTA Buttons (now a sibling of the bullets, with tighter gap) -->
+        <div class="mt-4 flex flex-wrap gap-3">
+          <a href="#services" class="rounded-xl bg-sky-600 px-5 py-3 text-white shadow hover:bg-sky-700 transition">
+            Explore Services
+          </a>
+          <a href="#contact" class="rounded-xl border border-slate-300 px-5 py-3 hover:bg-slate-50 transition">
+            Request Availability
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Hero Image -->
+      <div class="relative">
+        <img
+          src="images/hero-plane.jpg"
+          alt="Floatplane operations"
+          class="w-full h-[320px] sm:h-[420px] md:h-[480px] object-cover rounded-2xl shadow-lg"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-14 bg-white border-t border-slate-200">
+  <div class="container mx-auto px-4 flex flex-col md:flex-row items-stretch gap-6 md:gap-8">
+    
+    <!-- Headshot with soft accent + caption -->
+    <figure class="md:w-1/3 flex-shrink-0 relative">
+      <div class="absolute -inset-3 rounded-2xl bg-sky-100/50 blur-sm -z-10"></div>
+      <img
+        src="images/headshot.jpg"
+        alt="Your Name"
+        class="w-56 h-auto rounded-xl shadow-md object-contain"
+      />
+      <figcaption class="text-sm text-slate-500 mt-2">
+        Founder &amp; Lead Pilot
+      </figcaption>
+    </figure>
+
+<!-- Text -->
+<div class="md:w-2/3 h-full flex flex-col self-start">
+  <div>
+    <h2 class="text-2xl md:text-3xl font-bold text-sky-600 mb-2 scroll-mt-32">
+      About CAVOK Solutions
+    </h2>
+
+    <p class="mb-2">
+      Founded and led by an experienced amphibious and floatplane pilot with extensive coastal and mountain expertise.
+    </p>
+    <p class="mb-2">
+      Depending on mission requirements, CAVOK Solutions also provides equally qualified pilots who share the same professional standards.
+    </p>
+    <p class="mb-0">
+      Safety-first and checklist-driven from planning to shutdown.
+    </p>
+  </div>
+
+  <!-- Bullets in two columns -->
+  <div class="mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 font-semibold text-slate-700">
+      <ul class="list-disc list-inside space-y-1 marker:text-yellow-400">
+        <li>12,000+ hours total time</li>
+        <li>Extensive amphibious and floatplane operations</li>
+        <li>Coastal and mountain flying expertise</li>
+      </ul>
+      <ul class="list-disc list-inside space-y-1 marker:text-yellow-400">
+        <li>Multi, IFR, Float, Amphib, Night</li>
+        <li>FAA private licence conversion</li>
+        <li>Training Captain, Safety Manager</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-slate-50 border-t border-sky-600">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-sky-600 mb-12">
+      Services
+    </h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      
+      <!-- Service 1 -->
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <div class="flex justify-center mb-4 text-sky-700">
+          <!-- Airplane (command) icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path d="M2.5 19l19-7-19-7v5l13 2-13 2v5z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-sky-700 mb-3">
+          Pilot in Command / Captain
+        </h3>
+        <p class="text-slate-600">
+          Type and mission appropriate PIC for amphibious operations, including open water and river environments.
+        </p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <div class="flex justify-center mb-4 text-sky-700">
+          <!-- Captain’s hat icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 64 64" fill="currentColor">
+            <path d="M32 8c-12 0-22 6-28 16l28 8 28-8c-6-10-16-16-28-16zm0 28c-10 0-19-4-26-10v6c0 6 12 12 26 12s26-6 26-12v-6c-7 6-16 10-26 10z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-sky-700 mb-3">
+          Second in Command / Relief
+        </h3>
+        <p class="text-slate-600">
+          SIC and relief coverage to maintain schedule resilience and crew rest compliance.
+        </p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <div class="flex justify-center mb-4 text-sky-700">
+          <!-- Navigation / Route icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path d="M12 2l4 8H8l4-8zm0 20V10" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-sky-700 mb-3">
+          Ferry and Positioning
+        </h3>
+        <p class="text-slate-600">
+          Long range repositioning, import and export deliveries, and post maintenance check flights.
+        </p>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <div class="flex justify-center mb-4 text-sky-700">
+          <!-- Graduation cap icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path d="M12 14v7" />
+            <path d="M5 12v5c0 .93 3 2 7 2s7-1.07 7-2v-5" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-sky-700 mb-3">
+          Pilot Training & Mentorship
+        </h3>
+        <p class="text-slate-600">
+          Training, mentorship, and safety workshops that strengthen skills, confidence, and sound judgment.
+        </p>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <div class="flex justify-center mb-4 text-sky-700">
+          <!-- Clipboard checklist icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path d="M9 11l3 3L22 4" />
+            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-sky-700 mb-3">
+          Cockpit Management & Procedures
+        </h3>
+        <p class="text-slate-600">
+          Development of flows, SOPs, and checklist discipline to bring structure and consistency to every flight.
+        </p>
+      </div>
+
+      <!-- Service 6 -->
+<div class="bg-white rounded-2xl shadow-md p-6">
+  <div class="flex justify-center mb-4 text-sky-700">
+    <i data-lucide="timer" class="w-10 h-10"></i>
+  </div>
+  <h3 class="text-xl font-semibold text-sky-700 mb-3">
+    AOG / Short Notice
+  </h3>
+  <p class="text-slate-600">
+    Rapid response for maintenance returns to service and last minute coverage.
+  </p>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Experience -->
+<section id="experience" class="py-16 bg-white">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-sky-600 mb-10 text-center">Experience</h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      
+      <!-- Global Operations -->
+      <div class="p-6 bg-slate-50 rounded-xl shadow hover:shadow-lg transition text-center">
+        <div class="flex justify-center mb-4">
+          <i data-lucide="globe" class="w-10 h-10 text-sky-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Global Operations</h3>
+        <p>Extensive experience flying in diverse regions and environments worldwide.</p>
+      </div>
+
+      <!-- Aircraft Expertise -->
+      <div class="p-6 bg-slate-50 rounded-xl shadow hover:shadow-lg transition text-center">
+        <div class="flex justify-center mb-4">
+          <i data-lucide="plane" class="w-10 h-10 text-sky-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Aircraft Expertise</h3>
+        <p>Proficient on a wide range of amphibious and float-equipped aircraft.</p>
+      </div>
+
+      <!-- Flight Hours -->
+      <div class="p-6 bg-slate-50 rounded-xl shadow hover:shadow-lg transition text-center">
+        <div class="flex justify-center mb-4">
+          <i data-lucide="clock" class="w-10 h-10 text-sky-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Flight Hours</h3>
+        <p>Thousands of hours in command across challenging operational conditions.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Safety -->
+<section id="safety" class="py-16 bg-slate-50">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-sky-600 mb-10 text-center">Safety Standards</h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      
+      <!-- Checklist Discipline -->
+      <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition text-center">
+        <div class="flex justify-center mb-4">
+          <i data-lucide="check-square" class="w-10 h-10 text-sky-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Checklist Discipline</h3>
+        <p>Adheres to structured checklists and flows to ensure nothing is overlooked, from preflight to shutdown. Consistency keeps operations safe and predictable.</p>
+      </div>
+
+      <!-- Risk Management -->
+      <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition text-center">
+        <div class="flex justify-center mb-4">
+          <i data-lucide="shield-check" class="w-10 h-10 text-sky-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Risk Management</h3>
+        <p>Applies sound judgment and standard operating procedures (SOPs) to identify, assess, and mitigate risks in every phase of flight. Safety is never left to chance.</p>
+      </div>
+
+      <!-- Training & Proficiency -->
+      <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition text-center">
+        <div class="flex justify-center mb-4">
+          <i data-lucide="graduation-cap" class="w-10 h-10 text-sky-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Training &amp; Proficiency</h3>
+        <p>Pilots bring years of captain experience supported by recurrent training, emergency procedure drills, and type-specific proficiency to maintain the highest safety standards.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- load lucide icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+
+<!-- Aircraft Types -->
+<section id="aircraft" class="py-16 bg-slate-50 border-t border-sky-600">
+  <div class="container mx-auto px-4">
+    <h2 class="text-2xl md:text-3xl font-bold text-sky-600 mb-2 text-center scroll-mt-32">
+      Aircraft Types
+    </h2>
+    <p class="text-sm italic text-slate-800 mb-10 text-center">
+      Additional experience across a wide range of piston and turbine single-engine aircraft, both land and amphibious.
+    </p>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      
+      <!-- Beaver -->
+      <div class="relative rounded-2xl overflow-hidden shadow-md group h-64 text-center">
+        <!-- Background image -->
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('images/beaver.jpg');"></div>
+        <!-- White overlay -->
+        <div class="absolute inset-0 bg-white/50"></div>
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col justify-between h-full px-4 py-6">
+          <h3 class="text-2xl font-semibold text-blue-900">DHC-2(+T) Beaver</h3>
+          <p class="text-base font-bold text-blue-900">A proven classic in bush and floatplane operations, prized for reliability and versatility.</p>
+        </div>
+      </div>
+
+      <!-- Turbo Otter -->
+      <div class="relative rounded-2xl overflow-hidden shadow-md group h-64 text-center">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('images/otter.jpg');"></div>
+        <div class="absolute inset-0 bg-white/50"></div>
+        <div class="relative z-10 flex flex-col justify-between h-full px-4 py-6">
+          <h3 class="text-2xl font-semibold text-blue-900">DHC-3(T) Turbo Otter</h3>
+          <p class="text-base font-bold text-blue-900">The legendary Otter with turbine power, unmatched payload and performance for remote operations.</p>
+        </div>
+      </div>
+
+      <!-- Caravan -->
+      <div class="relative rounded-2xl overflow-hidden shadow-md group h-64 text-center">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('images/c208.jpg');"></div>
+        <div class="absolute inset-0 bg-white/50"></div>
+        <div class="relative z-10 flex flex-col justify-between h-full px-4 py-6">
+          <h3 class="text-2xl font-semibold text-blue-900">Cessna 208 Caravan</h3>
+          <p class="text-base font-bold text-blue-900">The industry’s turbine workhorse - efficient, rugged, and ideal for diverse missions.</p>
+        </div>
+      </div>
+
+      <!-- Kodiak -->
+      <div class="relative rounded-2xl overflow-hidden shadow-md group h-64 text-center">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('images/kodiak.jpg');"></div>
+        <div class="absolute inset-0 bg-white/50"></div>
+        <div class="relative z-10 flex flex-col justify-between h-full px-4 py-6">
+          <h3 class="text-2xl font-semibold text-blue-900">Daher Kodiak</h3>
+          <p class="text-base font-bold text-blue-900">Modern utility aircraft engineered for short takeoff, landing, and rugged field operations.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-white border-t border-sky-600">
+      <div class="container px-4 py-16">
+        <h2 class="text-3xl font-bold scroll-mt-24">Contact</h2>
+        <p class="mt-2 text-slate-600">Tell us about your trip, aircraft, and dates. We respond with availability and a quote.</p>
+        <div class="mt-8 grid md:grid-cols-2 gap-8">
+          <form class="rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
+            <div>
+              <label class="block text-sm text-slate-600">Name</label>
+              <input class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="Your name"/>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm text-slate-600">Email</label>
+                <input type="email" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="you@example.com"/>
+              </div>
+              <div>
+                <label class="block text-sm text-slate-600">Phone</label>
+                <input class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="Optional"/>
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm text-slate-600">Message</label>
+              <textarea class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 h-28" placeholder="Aircraft, mission, dates, origin and destination..."></textarea>
+            </div>
+            <div class="flex items-center gap-3">
+              <a href="mailto:ops@cavoksolutions.com?subject=CAVOK%20Solutions%20Inquiry" class="rounded-xl bg-sky-600 px-5 py-2.5 text-white shadow">Send Inquiry</a>
+              <a href="mailto:ops@cavoksolutions.com" class="text-sm text-sky-700">info@cavoksolutions.com</a>
+            </div>
+          </form>
+          <div class="rounded-2xl border border-slate-200 p-6">
+            <div class="space-y-2 text-sm">
+              <p><span class="font-medium">Headquarters:</span> Squamish, BC</p>
+              <p><span class="font-medium">Ops Hours:</span> 0700 to 1900 PT, after hours by arrangement</p>
+              <p><span class="font-medium">Insurance and Docs:</span> Provided on request</p>
+              <p><span class="font-medium">Dispatch Comms:</span> Email, phone, GPS tracker presets</p>
+            </div>
+            <div class="mt-6 rounded-xl border border-slate-200 p-4 text-xs text-slate-500 bg-slate-50">
+              <p class="font-medium text-slate-700">Why CAVOK?</p>
+              <p class="mt-1">Pilots who speak floatplane fluently. Tidy cockpit flows, and a weather eye for risk so your mission stays boring in the best way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 bg-white">
+      <div class="container px-4 py-10 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p>© 2025 CAVOK Solutions. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <a href="#" class="hover:text-sky-700">Privacy</a>
+          <a href="#" class="hover:text-sky-700">Terms</a>
+          <a href="#contact" class="hover:text-sky-700">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
