@@ -424,51 +424,53 @@
   </div>
 </section>
 
-    <!-- Contact -->
-    <section id="contact" class="bg-white border-t border-sky-600">
-      <div class="container px-4 py-16">
-        <h2 class="text-3xl font-bold scroll-mt-24">Contact</h2>
-        <p class="mt-2 text-slate-600">Tell us about your trip, aircraft, and dates. We respond with availability and a quote.</p>
-        <div class="mt-8 grid md:grid-cols-2 gap-8">
-          <form class="rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
-            <div>
-              <label class="block text-sm text-slate-600">Name</label>
-              <input class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="Your name"/>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label class="block text-sm text-slate-600">Email</label>
-                <input type="email" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="you@example.com"/>
-              </div>
-              <div>
-                <label class="block text-sm text-slate-600">Phone</label>
-                <input class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="Optional"/>
-              </div>
-            </div>
-            <div>
-              <label class="block text-sm text-slate-600">Message</label>
-              <textarea class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 h-28" placeholder="Aircraft, mission, dates, origin and destination..."></textarea>
-            </div>
-            <div class="flex items-center gap-3">
-              <a href="mailto:ops@cavoksolutions.com?subject=CAVOK%20Solutions%20Inquiry" class="rounded-xl bg-sky-600 px-5 py-2.5 text-white shadow">Send Inquiry</a>
-              <a href="mailto:ops@cavoksolutions.com" class="text-sm text-sky-700">info@cavoksolutions.com</a>
-            </div>
-          </form>
-          <div class="rounded-2xl border border-slate-200 p-6">
-            <div class="space-y-2 text-sm">
-              <p><span class="font-medium">Headquarters:</span> Squamish, BC</p>
-              <p><span class="font-medium">Ops Hours:</span> 0700 to 1900 PT, after hours by arrangement</p>
-              <p><span class="font-medium">Insurance and Docs:</span> Provided on request</p>
-              <p><span class="font-medium">Dispatch Comms:</span> Email, phone, GPS tracker presets</p>
-            </div>
-            <div class="mt-6 rounded-xl border border-slate-200 p-4 text-xs text-slate-500 bg-slate-50">
-              <p class="font-medium text-slate-700">Why CAVOK?</p>
-              <p class="mt-1">Pilots who speak floatplane fluently. Tidy cockpit flows, and a weather eye for risk so your mission stays boring in the best way.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Contact -->
+<section id="contact" class="py-16 bg-white border-t border-slate-200">
+  <div class="container mx-auto px-4 max-w-2xl">
+    <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6 text-center">
+      Get in touch
+    </h2>
+
+    <!-- Netlify Forms -->
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html" class="grid gap-4">
+      <!-- Required hidden input -->
+      <input type="hidden" name="form-name" value="contact" />
+      <!-- Honeypot -->
+      <p class="hidden">
+        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+      </p>
+
+      <label class="block">
+        <span class="block text-sm font-medium text-slate-700">Name</span>
+        <input name="name" required class="mt-1 w-full rounded-xl border border-slate-300 p-3" />
+      </label>
+
+      <label class="block">
+        <span class="block text-sm font-medium text-slate-700">Email</span>
+        <input type="email" name="email" required class="mt-1 w-full rounded-xl border border-slate-300 p-3" />
+      </label>
+
+      <label class="block">
+        <span class="block text-sm font-medium text-slate-700">Subject</span>
+        <input name="subject" class="mt-1 w-full rounded-xl border border-slate-300 p-3" />
+      </label>
+
+      <label class="block">
+        <span class="block text-sm font-medium text-slate-700">Message</span>
+        <textarea name="message" rows="5" required class="mt-1 w-full rounded-xl border border-slate-300 p-3"></textarea>
+      </label>
+
+      <button type="submit" class="rounded-2xl px-5 py-3 font-semibold border border-slate-900 hover:bg-slate-900 hover:text-white">
+        Send inquiry
+      </button>
+
+      <!-- Optional: plain mailto fallback link -->
+      <p class="text-center text-sm text-slate-500">
+        Prefer email? <a href="mailto:info@cavoksolutions.com" class="underline">info@cavoksolutions.com</a>
+      </p>
+    </form>
+  </div>
+</section>
 
     <!-- Footer -->
     <footer class="border-t border-slate-200 bg-white">
